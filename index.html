@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heracles labour #2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Heracles vs Erymanthian Boar</h1>
+    </header>
+    <main>
+
+        <div class="fighters">
+            <a href="#hero">
+                <figure class="heracles">
+                    <img src="assets/images/heracles.svg" alt="">
+                    <figcaption>
+                        Heracles
+                    </figcaption>
+                </figure>
+            </a>
+            <div class="fight">🗡️</div>
+            <figure class="monster">
+                <img src="assets/images/boar.svg" alt="">
+                <figcaption>
+                    Erymanthian Boar
+                </figcaption>
+            </figure>
+        </div>
+
+        <section class="rounds">
+            <div class="round">
+                <h2 class="number">Round #1</h2>
+                <div class="life">
+                    <div>97</div><progress max="100" value="97"></progress>
+                    <div>99</div><progress max="100" value="99"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section class="win">
+            <p>💀 ??? is dead</p>
+            <p>🏆 ??? wins</p>
+        </section>
+    </main>
+
+    <aside id="hero" class="hero">
+        <a href="#" class="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+                viewBox="0 0 16 16">
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </a>
+        <div class="slots equipment">
+            <div data-slot="Main weapon" class="slot">
+                <img src="assets/images/sword.svg" alt="weapon">
+            </div>
+            <div data-slot="Shield" class="slot">
+                <img src="assets/images/shield.svg" alt="shield">
+            </div>
+            <div data-slot="Secondary weapon" class="slot"></div>
+            <div data-slot="Head" class="slot"></div>
+            <div data-slot="Ring" class="slot"></div>
+            <div data-slot="Armory" class="slot"></div>
+            <div data-slot="Attack" class="slot statistic">
+
+            </div>
+            <div data-slot="Defense" class="slot statistic">
+
+            </div>
+            <div data-slot="Life" class="slot statistic"></div>
+            <div data-slot="Magic" class="slot statistic"></div>
+        </div>
+        <div class="character">
+            <h2 class="name">Heracles</h2>
+            <div class="avatar">
+                <img src="assets/images/heracles.svg" alt="heracles">
+            </div>
+            <p class="level">Level 1</p>
+        </div>
+
+        <div class="slots inventory">
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+            <div class="slot"></div>
+        </div>
+    </aside>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
