@@ -40,7 +40,7 @@ Modify the `fight()` method to change the calculations. You should now use `getD
 
 You should now see that Heracles is able to defeat the boar.
 
-## Mission 3: Enable weapon and shield in GUI
+## Mission 3: Show and hide weapon and shield in GUI
 
 If you click on Heracles avatar, you should see Heracles inventory.
 
