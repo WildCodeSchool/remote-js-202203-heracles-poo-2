@@ -57,4 +57,6 @@ Up to now, the weapon and the shield are hardcoded in the `index.js` file. To ma
 - A button to start the fight (and a listener to handle the `click` event that starts the fight). Or a button to restart the game if it already took place.
 - Two listeners on the main weapon and shield image slots to enable or disable each of them.
 
+You may need to add a `heal()` method for our fighters if you allow to restart the game. You also may need to add dom functions to clean up the DOM.
+
 Bonus : add a delay between each round to see the fight progression.
